@@ -5,35 +5,39 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the shared state page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Shared State page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, the page has no provider snippet of its own, it relies on the quickstart setup."
+  },
+  {
+   "at": "evidence#2",
+   "text": "The agent uses set notes, which is never shown."
+  },
+  {
+   "at": "evidence#3",
+   "text": "And inject preferences, also never shown."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "The imports weren't on the page, so I added them myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So the shared state page should load."
-  },
-  {
-   "at": "+",
-   "text": "But the whole page is a Next error, blocking route, umm, unstable value random UUID."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the CopilotKit provider snippet the page uses."
+   "text": "Moving on to the demo. It should show the shared notes demo, but the page dies with a blocking route error from random UUID."
   },
   {
    "at": "notepad",
-   "text": "Basically, the quickstart's create next app turns on cache components, and then the CopilotKit provider calls random UUID during render, so Next blocks the whole route."
+   "text": "So the quickstart setup breaks this route, and the agent helpers are missing, so you can't run it as written."
   },
   {
    "at": "+",
-   "text": "Also, get model, set notes and the instruction are never shown on the page."
-  },
-  {
-   "at": "+",
-   "text": "Yeah, that's the bug, kindly get it fixed."
+   "text": "Kindly sort this page out, thanks."
   }
  ]
 }

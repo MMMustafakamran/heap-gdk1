@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. I asked for a plans table, it should render a component, but it's just a plain text reply.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 8.22,
+ "file": "3d5fef3229ec9e8ffd5261c627e08788.mp3",
+ "clip": "ADK-react-10-GenUiComponents",
+ "at": "demo"
+}

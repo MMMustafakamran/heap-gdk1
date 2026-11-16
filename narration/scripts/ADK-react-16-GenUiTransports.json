@@ -5,35 +5,27 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the transports page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Transports page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, the agent side step is only for the built-in agent and LangGraph, umm, nothing for Google ADK."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked it to compare the starter, team and enterprise plans in a table."
-  },
-  {
-   "at": "+",
-   "text": "The agent just replies in text, uh, no generative UI is streamed or rendered."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the agent side part, it only covers the built-in agent and LangGraph."
+   "text": "Moving on to the demo. I asked to compare the plans in a table, it should stream generative UI, but the agent replies in plain text."
   },
   {
    "at": "notepad",
-   "text": "So basically, this whole section has no Google ADK agent code, only the built-in agent and LangGraph."
+   "text": "So the page never shows the ADK side, so no generative UI ever comes through."
   },
   {
    "at": "+",
-   "text": "So the ADK agent never streams any generative UI."
-  },
-  {
-   "at": "+",
-   "text": "Yeah, so this one's not working, kindly have a look."
+   "text": "So yeah, kindly check this and fix it."
   }
  ]
 }

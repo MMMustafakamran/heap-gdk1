@@ -5,31 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the state and actions page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the State and Actions page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, the shop catalog has cart state here, but there's no ADK backend for it."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "The zod and create generative UI imports weren't on the page, so I added them myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for a product card with actions."
-  },
-  {
-   "at": "+",
-   "text": "The agent answers in text, ahh, no catalog component, no state and no actions."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the state and actions code from the page."
+   "text": "Moving on to the demo. I asked for a product card, it should show it with cart state and actions, but the agent just answers in text."
   },
   {
    "at": "notepad",
-   "text": "So basically, the page has no Google ADK backend, so the components with state never render."
+   "text": "So without ADK agent code, there's no component, no state and no actions."
   },
   {
    "at": "+",
-   "text": "So yeah, please take a look and fix this."
+   "text": "So umm, this one needs fixing, please look into it."
   }
  ]
 }

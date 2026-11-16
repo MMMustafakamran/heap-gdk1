@@ -5,39 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the agent read only context page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Agent Read-Only Context page for Google ADK, and I'm reporting a problem on this page."
   },
   {
-   "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. So the page doesn't load at all."
-  },
-  {
-   "at": "+",
-   "text": "Next shows module not found, it can't resolve demo layout."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the demo layout import, that file is never shown."
+   "at": "evidence",
+   "text": "So this is the problem, page dot tsx imports demo layout from a file that's never shown."
   },
   {
    "at": "evidence#2",
-   "text": "Same for this suggestions import."
+   "text": "And the suggestions hook too, also never shown."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. It should show the read-only context demo, but Next fails with module not found for demo layout."
   },
   {
    "at": "notepad",
-   "text": "So basically, the page imports demo layout and suggestions, and umm, neither file is on the page, not even in the Code tab."
+   "text": "So basically, two files the page needs are just not on the page, not even in the Code tab."
   },
   {
    "at": "+",
-   "text": "So Next just fails with module not found."
-  },
-  {
-   "at": "+",
-   "text": "So that's broken here, please check it."
+   "text": "So yeah, please add those files to the page."
   }
  ]
 }

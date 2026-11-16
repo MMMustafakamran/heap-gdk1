@@ -1,0 +1,9 @@
+{
+ "text": "So basically, the two snippets use different agents and the sidebar never opens a thread, so you can't switch threads at all.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 8.731,
+ "file": "084120e92491b21e9ae049c8cb97e203.mp3",
+ "clip": "ADK-react-24-HeadlessThreads",
+ "at": "notepad"
+}

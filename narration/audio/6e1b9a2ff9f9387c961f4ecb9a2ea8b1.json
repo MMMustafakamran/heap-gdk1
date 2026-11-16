@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. It should load the dynamic schema demo, but Next fails right away with module not found for chat.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 8.081,
+ "file": "6e1b9a2ff9f9387c961f4ecb9a2ea8b1.mp3",
+ "clip": "ADK-react-27-A2uiDynamicSchema",
+ "at": "demo"
+}

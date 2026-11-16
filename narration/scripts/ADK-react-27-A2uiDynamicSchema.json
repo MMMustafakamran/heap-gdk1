@@ -5,39 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the A2UI dynamic schema page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Dynamic Schema A2UI page for Google ADK, and I'm reporting a problem on this page."
   },
   {
-   "at": "ide",
-   "text": "This is my project, this is the exact code from the doc, from the Code tab."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. So the page doesn't even load."
-  },
-  {
-   "at": "+",
-   "text": "Next shows module not found, it can't resolve the chat file."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the import, umm, the chat file is never shown on the page."
+   "at": "evidence",
+   "text": "So this is the problem, page dot tsx imports chat from a file that's never shown."
   },
   {
    "at": "evidence#2",
-   "text": "And this opt out snippet is LangGraph Python, not ADK."
+   "text": "And this tool snippet is LangGraph code, uh, on the ADK page."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. It should load the dynamic schema demo, but Next fails right away with module not found for chat."
   },
   {
    "at": "notepad",
-   "text": "So basically, the Code tab's page imports a chat file, and the renderers import badge and button components, and none of those files are on the page."
+   "text": "So the Code tab is missing the chat file and the UI components, so the page doesn't even build."
   },
   {
    "at": "+",
-   "text": "So Next fails right away with module not found."
-  },
-  {
-   "at": "+",
-   "text": "So yeah, kindly check this and fix it."
+   "text": "That's all for this page, please fix it."
   }
  ]
 }

@@ -5,39 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the governed action approval page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Governed Action Approval page for Google ADK, and I'm reporting a problem on this page."
   },
   {
-   "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. So I asked it to send an email to Bob."
-  },
-  {
-   "at": "+",
-   "text": "No approval card shows up, the agent just replies in text."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This section is the approval card, umm, it's frontend only."
+   "at": "evidence",
+   "text": "So this is the problem, uh, this section is only frontend code, there's no agent or backend step."
   },
   {
    "at": "evidence#2",
-   "text": "And execute side effect is never defined."
+   "text": "And execute side effect here is never defined."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. I asked it to send an email to Bob, it should show an approval card, but the agent just replies in text."
   },
   {
    "at": "notepad",
-   "text": "So basically, the page shows no agent or backend step, so with the quickstart agent the approval tool never reaches the model."
+   "text": "So the page never shows the agent side, so the approval tool never reaches the agent."
   },
   {
    "at": "+",
-   "text": "So the approval card never appears."
-  },
-  {
-   "at": "+",
-   "text": "Ok so, kindly have a look and fix this one."
+   "text": "So kindly add the agent side here."
   }
  ]
 }

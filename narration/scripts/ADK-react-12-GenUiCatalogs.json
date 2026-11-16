@@ -5,31 +5,27 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the catalogs page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Catalogs page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, the page registers the shop catalog here, but there's no ADK backend at all."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for a card from the catalog."
-  },
-  {
-   "at": "+",
-   "text": "The agent answers on its own, umm, but the catalog's product card never renders."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the catalog code from the page."
+   "text": "Moving on to the demo. I asked for two shoes as product cards, it should render the catalog's product card, but the agent just answers on its own."
   },
   {
    "at": "notepad",
-   "text": "So basically, the page has no Google ADK backend, so the agent never uses the catalog."
+   "text": "So the catalog is wired, but without any ADK agent code nothing ever uses it."
   },
   {
    "at": "+",
-   "text": "So this needs a fix, kindly check it."
+   "text": "So yeah, please take a look and fix this."
   }
  ]
 }

@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. I asked a step by step math question, it should show a reasoning card, but I just got a plain answer.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 7.941,
+ "file": "83c1ef5e037df5aa709d3fe26392929f.mp3",
+ "clip": "ADK-react-19-ReasoningMessages",
+ "at": "demo"
+}

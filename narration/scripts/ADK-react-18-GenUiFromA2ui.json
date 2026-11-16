@@ -5,31 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the adopt from A2UI page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the From A2UI page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, the page registers these Airport and Arrow renderers, but no ADK agent code at all."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "The Airport and Arrow renderers were never shown on the page, so I added simple stubs myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked about a flight between two airports."
-  },
-  {
-   "at": "+",
-   "text": "The reply is only text, umm, no airport or arrow components."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the code from the page, the airport and arrow renderers are never shown."
+   "text": "Moving on to the demo. I asked for SFO to JFK with airports and an arrow, it should render those components, but the reply is just text."
   },
   {
    "at": "notepad",
-   "text": "So basically, there's no Google ADK backend, and the airport and arrow renderers are missing from the page."
+   "text": "So the renderers are never shown and there's no ADK backend, so nothing renders."
   },
   {
    "at": "+",
-   "text": "So umm, this one needs fixing, please look into it."
+   "text": "Please have a look at this one."
   }
  ]
 }

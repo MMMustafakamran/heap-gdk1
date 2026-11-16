@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. I asked for a product card, it should show it with cart state and actions, but the agent just answers in text.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 9.845,
+ "file": "456c6a54bfd924dcac4cb88755165df2.mp3",
+ "clip": "ADK-react-14-GenUiStateActions",
+ "at": "demo"
+}

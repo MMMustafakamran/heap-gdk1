@@ -5,35 +5,35 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the A2UI page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the A2UI page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, my catalog is used here but it's never defined, and same for my agent."
+  },
+  {
+   "at": "evidence#2",
+   "text": "And the backend imports copilotkit, but no install step adds that package."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "The page is only fragments, so I added a small page wrapper myself to mount it."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So the A2UI page should load."
-  },
-  {
-   "at": "+",
-   "text": "It fails with my catalog is not defined, uh, the page doesn't render."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the provider line, my catalog is never defined anywhere."
+   "text": "Moving on to the demo. It should show the A2UI chat, but the page crashes, my catalog is not defined."
   },
   {
    "at": "notepad",
-   "text": "So basically, the page is only fragments, my catalog and my agent are never defined."
+   "text": "So basically, the page is just fragments with undefined names and no ADK agent, so you can't run it."
   },
   {
    "at": "+",
-   "text": "And there's no Google ADK agent code on the page at all."
-  },
-  {
-   "at": "+",
-   "text": "Alright, that's the issue, kindly sort it out."
+   "text": "So uh, kindly get this fixed."
   }
  ]
 }

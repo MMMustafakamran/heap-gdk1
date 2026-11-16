@@ -1,0 +1,9 @@
+{
+ "text": "So the theming itself is fine, but with no ADK agent code there's nothing to apply it to.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 6.966,
+ "file": "d6c45eb002abd4c83fefd3cd77e3e74f.mp3",
+ "clip": "ADK-react-15-GenUiTheming",
+ "at": "notepad"
+}

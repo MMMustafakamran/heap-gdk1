@@ -5,35 +5,27 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the reasoning page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Reasoning page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, it says the card shows up if your model emits reasoning, but uh, there's no ADK agent or Gemini setting for that."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked it a step by step math question."
-  },
-  {
-   "at": "+",
-   "text": "It gave a normal answer, but umm, no thinking card showed up at all."
-  },
-  {
-   "at": "evidence#1",
-   "text": "Here the page says the card just appears if the model emits reasoning."
+   "text": "Moving on to the demo. I asked a step by step math question, it should show a thinking card, but it's just a normal answer."
   },
   {
    "at": "notepad",
-   "text": "So basically, the page only talks about GPT models, there's no ADK agent and no Gemini thinking setting."
+   "text": "So the page never shows an ADK agent that emits reasoning, so on Gemini there's just no thinking card."
   },
   {
    "at": "+",
-   "text": "So on Gemini, uh, the reasoning card never shows."
-  },
-  {
-   "at": "+",
-   "text": "So yeah, please take a look and fix this."
+   "text": "So kindly look into it."
   }
  ]
 }

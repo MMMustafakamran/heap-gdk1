@@ -5,35 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the Hashbrown page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Hashbrown page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, it says the Code tab has everything, but the registry and three frontend files are missing."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc, from the Code tab."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "The chat file and the agent mount weren't on the page, so I took them from the showcase myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for a sales dashboard with a metric and a pie chart."
-  },
-  {
-   "at": "+",
-   "text": "The dashboard does render, but umm, only because I added the missing files myself."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This line says the Code tab has everything, but some files are missing."
+   "text": "Moving on to the demo. It should build from the doc alone, but the dashboard only renders with those showcase files added."
   },
   {
    "at": "notepad",
-   "text": "So basically, the agent is mounted in a registry file that's never shown, and the page imports chat, types and chart config, also not shown."
+   "text": "So basically, without guessing those files, the page can't be built from the doc."
   },
   {
    "at": "+",
-   "text": "You can't build this page from the doc without guessing those files."
-  },
-  {
-   "at": "+",
-   "text": "So yeah, kindly look into this and fix it."
+   "text": "Yeah, so please look into this one."
   }
  ]
 }

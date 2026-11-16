@@ -5,31 +5,27 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the theming page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Theming page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, uh, the page sets these theme colors, but there's no ADK backend, so nothing renders to theme."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for a themed card."
-  },
-  {
-   "at": "+",
-   "text": "No themed component renders, uh, just text or code comes back."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the theming code from the page."
+   "text": "Moving on to the demo. I asked for a card with a button, it should show a themed component, but I only got text."
   },
   {
    "at": "notepad",
-   "text": "So basically, there's no Google ADK backend here, so the themed components never render."
+   "text": "So the theming itself is fine, but with no ADK agent code there's nothing to apply it to."
   },
   {
    "at": "+",
-   "text": "That's what's breaking here, kindly have it fixed."
+   "text": "Alright, that's the issue, kindly sort it out."
   }
  ]
 }

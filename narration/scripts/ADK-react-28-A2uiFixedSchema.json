@@ -5,39 +5,35 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the A2UI fixed schema page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Fixed Schema A2UI page for Google ADK, and I'm reporting a problem on this page."
   },
   {
-   "at": "ide",
-   "text": "This is my project, this is the exact code from the doc, from the Code tab."
-  },
-  {
-   "at": "demo",
-   "text": "Moving on to the demo. So I asked for a flight from SFO to JFK."
-  },
-  {
-   "at": "+",
-   "text": "The flight card shows up, but uh, the airports, the airline and the price are all empty."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the agent import, agents shared chat is never shown."
+   "at": "evidence",
+   "text": "So this is the problem, the agent imports agents dot shared chat, which is never shown."
   },
   {
    "at": "evidence#2",
-   "text": "And this is the schema the card is built from."
+   "text": "And this flight schema is supposed to fill the card with the flight data."
+  },
+  {
+   "at": "ide",
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "Shared chat and the missing UI files weren't on the page, so I added stand-ins myself."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. I asked for a flight, the card should show the airports, airline and price, but the card shows up empty."
   },
   {
    "at": "notepad",
-   "text": "So basically, I used every file from the Code tab, but the page imports a chat file and four UI components that are never shown, and the agent needs shared chat too."
+   "text": "So the page skips several files, and even with them filled in, the flight card has no data on it."
   },
   {
    "at": "+",
-   "text": "With those filled in, the card renders, but there's no flight data on it."
-  },
-  {
-   "at": "+",
-   "text": "So uh, please look into this one."
+   "text": "So kindly add the missing files here."
   }
  ]
 }

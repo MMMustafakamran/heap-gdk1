@@ -5,31 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the surfaces page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Surfaces page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, the page has this product row fallback but no ADK backend anywhere, uh, only frontend."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "Product and Product Row were never defined on the page, so I added small stubs myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked for some products on the surface."
-  },
-  {
-   "at": "+",
-   "text": "The agent can't see any products, and uh, no surface renders."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the surface code from the page."
+   "text": "Moving on to the demo. I asked for running shoes, it should show a product surface, but the agent can't see any products, just text."
   },
   {
    "at": "notepad",
-   "text": "So basically, there's no Google ADK backend code for this page, so the agent has nothing to fill the surface with."
+   "text": "So basically there's no ADK backend code for surfaces, so nothing gets rendered."
   },
   {
    "at": "+",
-   "text": "That's the problem here, please have a look."
+   "text": "That's it for this one, kindly look into this issue."
   }
  ]
 }

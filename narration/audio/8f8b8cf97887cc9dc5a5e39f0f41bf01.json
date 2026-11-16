@@ -1,0 +1,9 @@
+{
+ "text": "So the renderers are never shown and there's no ADK backend, so nothing renders.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 7.198,
+ "file": "8f8b8cf97887cc9dc5a5e39f0f41bf01.mp3",
+ "clip": "ADK-react-18-GenUiFromA2ui",
+ "at": "notepad"
+}

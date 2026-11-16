@@ -5,31 +5,35 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the components and surfaces page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Components page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, the install is only TanStack AI and OpenAI, no Google ADK."
+  },
+  {
+   "at": "evidence#2",
+   "text": "It says if you already have CopilotKit running, do step three only."
+  },
+  {
+   "at": "evidence#3",
+   "text": "And the agent side step is only for LangGraph."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So I asked the agent to show some components."
-  },
-  {
-   "at": "+",
-   "text": "It just answers in plain text, ahh, no components render at all."
-  },
-  {
-   "at": "evidence#1",
-   "text": "This is the install line, it's only TanStack AI and OpenAI."
+   "text": "Moving on to the demo. I asked for a plans table, it should render a component, but it's just a plain text reply."
   },
   {
    "at": "notepad",
-   "text": "So basically, this whole section has no Google ADK agent code, only a TanStack backend."
+   "text": "So the whole components section has no ADK agent code, so the ADK agent never renders anything."
   },
   {
    "at": "+",
-   "text": "So kindly look into it."
+   "text": "So this needs a fix, kindly check it."
   }
  ]
 }

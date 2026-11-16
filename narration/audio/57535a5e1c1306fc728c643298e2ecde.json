@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. I asked for two shoes as product cards, it should render the catalog's product card, but the agent just answers on its own.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 9.892,
+ "file": "57535a5e1c1306fc728c643298e2ecde.mp3",
+ "clip": "ADK-react-12-GenUiCatalogs",
+ "at": "demo"
+}

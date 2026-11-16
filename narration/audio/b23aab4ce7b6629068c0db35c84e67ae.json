@@ -1,0 +1,9 @@
+{
+ "text": "So this is the problem, the page registers these Airport and Arrow renderers, but no ADK agent code at all.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 8.081,
+ "file": "b23aab4ce7b6629068c0db35c84e67ae.mp3",
+ "clip": "ADK-react-18-GenUiFromA2ui",
+ "at": "evidence"
+}

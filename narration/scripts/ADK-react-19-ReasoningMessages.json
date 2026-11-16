@@ -5,35 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the reasoning messages page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Reasoning Messages page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, umm, it says just connect your agent, but there's no ADK agent and no Gemini thinking setting anywhere."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "The suggestions helper wasn't on the page, so I added an empty stand-in for it myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. I asked a step by step math question."
-  },
-  {
-   "at": "+",
-   "text": "A plain answer came back, and the reasoning card never appeared."
-  },
-  {
-   "at": "evidence#1",
-   "text": "And umm, this line says you just connect your agent, no extra config."
+   "text": "Moving on to the demo. I asked a step by step math question, it should show a reasoning card, but I just got a plain answer."
   },
   {
    "at": "notepad",
-   "text": "Basically there's no ADK agent here, and nothing about turning on thinking for Gemini."
+   "text": "So basically, the page only talks about GPT models and never shows how to get reasoning out of Gemini, so the card never shows up."
   },
   {
    "at": "+",
-   "text": "So the reasoning card just never shows up."
-  },
-  {
-   "at": "+",
-   "text": "Alright, that's the issue, kindly sort it out."
+   "text": "So yeah, this is the issue, kindly fix it."
   }
  ]
 }

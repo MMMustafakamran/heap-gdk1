@@ -1,0 +1,9 @@
+{
+ "text": "So the Code tab is missing four frontend files and the shared chat module, so it can't run as written.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 7.43,
+ "file": "fb4216568f768c027dd4ab3b65312a1e.mp3",
+ "clip": "ADK-react-38-Subagents",
+ "at": "notepad"
+}

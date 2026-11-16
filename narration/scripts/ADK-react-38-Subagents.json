@@ -5,35 +5,31 @@
  "segments": [
   {
    "at": "doc",
-   "text": "Ok so, this is the sub agents page in the CopilotKit docs, for Google ADK with React. And I have implemented this page in my project."
+   "text": "Ok so this is the Sub-agents page for Google ADK, and I'm reporting a problem on this page."
+  },
+  {
+   "at": "evidence",
+   "text": "So this is the problem, the agent imports agents dot shared chat, umm, which isn't shown anywhere."
   },
   {
    "at": "ide",
-   "text": "This is my project, this is the exact code from the doc, from the Code tab."
+   "text": "This is my project, I've implemented the exact code from the doc."
+  },
+  {
+   "at": "+",
+   "text": "Shared chat wasn't on the page, so I added a stand-in for it myself."
   },
   {
    "at": "demo",
-   "text": "Moving on to the demo. So the page doesn't load."
-  },
-  {
-   "at": "+",
-   "text": "Next shows module not found for one of the files the page imports."
-  },
-  {
-   "at": "evidence#1",
-   "text": "And this import, agents dot shared chat, is never shown either."
+   "text": "Moving on to the demo. It should show the sub-agent demo, but Next fails with module not found, four imported files aren't shown."
   },
   {
    "at": "notepad",
-   "text": "So basically, the Code tab's page imports four files, the activity card, demo layout, active sub agent and suggestions, and uh, none of them are on the page."
+   "text": "So the Code tab is missing four frontend files and the shared chat module, so it can't run as written."
   },
   {
    "at": "+",
-   "text": "And on the backend, shared chat with get model is never shown."
-  },
-  {
-   "at": "+",
-   "text": "So yeah, this needs sorting out, please take a look."
+   "text": "That's the issue, please take care of it."
   }
  ]
 }
