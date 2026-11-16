@@ -24,6 +24,10 @@
    "text": "This is my project, I've implemented the exact code from the doc."
   },
   {
+   "at": "+",
+   "text": "This part wasn't on the page, the agent id that points the chat at my ADK agent, so I added it myself."
+  },
+  {
    "at": "demo",
    "text": "Moving on to the demo. I asked for a plans table, it should render a component, but it's just a plain text reply."
   },
